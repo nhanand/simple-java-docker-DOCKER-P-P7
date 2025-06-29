@@ -13,11 +13,9 @@ RUN javac Main.java
 
 CMD ["java", "Main"]
 
-# docker build 
+# docker build  $$  docker push
 
 docker build -t dockeruser534/java-app1:latest .
-
-# docker push
 
 docker push dockeruser534/java-app1:latest 
 
